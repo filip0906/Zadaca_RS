@@ -1,0 +1,12 @@
+for i in range(1,2):
+    print(i)
+Nema smisla zato što se generira niz brojeva a on će ispisati samo 1 jer se zaustavlja na 2 i ne ispisuje ga.
+
+for u in range(10,1,2):
+    print(i)
+neće ispisati ništa jer niz poćinje sa 10, a zaustavlja se na 1, a mi niz uvećavamo za 2 što nema smisla. 
+Da bi se nešto ispisalo umjesto 2 trebalo bi biti -2.
+
+for i in range(10, 1, -1):
+    print(i)
+Petlja će ispisati 10,9,8,7,6,5,4,3,2
